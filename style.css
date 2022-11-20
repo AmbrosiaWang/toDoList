@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-color: #65a469;
+}
+
+h1{
+    text-align: center;
+    color:#4E6C50 ;
+    font-size: 80px;
+   
+    margin-top: 20px;
+    
+}
+.container{
+    width: 50%;
+    min-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#F0EBCE;
+    min-height: 120px;
+    border-radius: 10px;
+}
+#newtask{
+    /* position: relative; */
+    padding:40px 20px;
+    display: flex;
+    justify-content: center;
+    /* height: 30px; */
+    align-items: center;
+}
+
+#newtask input{
+    width: 90%;
+    height: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border:none;
+    color:#327c6d;
+    font-weight: 500;
+    /* position: relative; */
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+#newtask input:focus{
+    outline: none;
+}
+
+#newtask input::placeholder{
+    font-weight: normal;
+    color: rgb(241, 197, 190);
+}
+
+#newtask button{
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #AA8B56;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+/* #tasks{ */
+/* background-color: cadetblue;
+
+margin-bottom: 10px;
+padding: 5px 10px;
+display: flex;
+border-radius: 10px;
+align-items: center;
+justify-content: space-between;
+border: 1px solid grey;
+cursor: pointer; */
+/* } */
+
+.task{
+    background-color:#d1ba98;
+    color: white;
+    height: 60px;
+    padding: 20px 10px;
+    margin:15px;
+    border: none;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+
+    cursor: pointer;
+   
+  
+}
+
+.task span{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.task button{
+    background-color:#537562;
+    color: white;
+    padding:14px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
